@@ -43,6 +43,7 @@ header nav h1 {
 header nav a {
 	padding: 20px 10px;
 	font-weight: bold;
+	cursor: pointer;
 }
 header nav a:hover {
 	background-color: #dd5f00e6;
@@ -89,12 +90,19 @@ header nav a:hover {
 	padding: 40px 0 0 0;
 }
 .gallery-item {
-	width: 24%; height: 16rem;
+	width: 33%; height: 200px;
+	box-sizing: border-box;
 	overflow: hidden;
+	margin-bottom: 1em;
+}
+.gallery-item .material-placeholder {
+	width: 100%; height: 200px;
 	box-sizing: border-box;
 }
 .gallery-item img {
+	width: 100%; height: auto;
 	object-fit: cover;
+	
 }
 
 /*sobre mim*/

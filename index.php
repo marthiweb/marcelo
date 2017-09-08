@@ -8,7 +8,7 @@
 			<h5 class="header">Desenvolvedor Front-end e Designer de interfaces com conheecimentos em Bootstrap, responsive, UX...</h5>
 		</div>
 		<div class="row center">
-			<a href="" id="" class="btn-large waves-effect">Sobre mim</a>
+			<a href="" id="" class="btn-large waves-effect">Sobre</a>
 		</div>
 	</div>
 </div>
@@ -18,17 +18,20 @@
 	</div>
 </div>
 
-<div class="section white">
+<div class="section white portfolioScroll">
 <div class="container">
     <div class="portfolio">
 		<h1>Portfólio</h1>
 		<h3>Confira aqui meus trabalhos</h3>
 		<div class="gallery">
 			<div class="gallery-item">
-				<img src="img/port/siaci.jpg" width="600" alt="" class="materialboxed">
+				<img src="img/port/site_etu.jpg" alt="" class="materialboxed">
 			</div>
 			<div class="gallery-item">
-				<img src="img/port/adding01.jpg" width="600" alt="" class="materialboxed">
+				<img src="img/port/siaci.jpg" alt="" class="materialboxed">
+			</div>
+			<div class="gallery-item">
+				<img src="img/port/adding01.jpg" alt="" class="materialboxed">
 			</div>
 			<div class="gallery-item">
 				<img src="img/port/casadufuturo01.jpg" alt="" class="materialboxed">
@@ -87,7 +90,7 @@
 	<div class="parallax"><img src="img/01.jpg"></div>
 </div>
 
-<div class="section sobre">
+<div class="section sobre sobreScroll">
 	<div class="row container center">
 		<h2 class="header">Sobre mim</h2>
   		<div class="row">
@@ -140,33 +143,33 @@
 	<div class="parallax"><img src="img/04.jpg"></div>
 </div>
 
-<div class="section contato">
+<div class="section contato contatoScroll">
 	<div class="row container center">
 		<h2 class="header">Gostou?</h2>
 		<h3>Entre em contato e dê início ao seu projeto!</h3>
 
 		<div class="container">
-			<form>
+			<form method="post" action="enviaemail.php">
 				<div class="col s12 m6">
 			        <div class="input-field">
-			          <input placeholder="" id="nome" type="text" class="validate">
+			          <input placeholder="" id="nome" name="nome" type="text" class="validate">
 			          <label for="nome">Nome</label>
 			        </div>
 
 			        <div class="input-field">
-			          <input placeholder="" id="nome" type="text" class="validate">
-			          <label for="nome">E-mail</label>
+			          <input placeholder="" id="email" name="email" type="text" class="validate">
+			          <label for="email">E-mail</label>
 			        </div>
 
 			        <div class="input-field">
-			          <input placeholder="" id="nome" type="text" class="validate">
-			          <label for="nome">Telefome</label>
+			          <input placeholder="" id="telefone" name="telefone" type="text" class="validate">
+			          <label for="telefone">Telefome</label>
 			        </div>
 				</div>
 				<div class="col s12 m6">
 			        <div class="input-field col s12">
-			          <textarea id="textarea1"  placeholder="" class="materialize-textarea"></textarea>
-			          <label for="textarea1">Mensagem</label>
+			          <textarea id="mensagem"  placeholder="" name="mensagem" class="materialize-textarea"></textarea>
+			          <label for="mensagem">Mensagem</label>
 			        </div>
 			        <div class="input-field col s12">
 						<button class="btn-large waves-effect waves-light" type="submit" name="action">Enviar mensagem
