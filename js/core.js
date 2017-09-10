@@ -17,7 +17,7 @@ $(document).ready(function(){
 			scrollTop: portOffset
 		}, 500);
 	});
-	$("#link3").click(function(){
+	$("#link3, #btnSobre").click(function(){
 		$('html, body').animate({
 			scrollTop: sobreOffset
 		}, 500);

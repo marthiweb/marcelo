@@ -8,7 +8,7 @@
 			<h5 class="header">Desenvolvedor Front-end e Designer de interfaces com conheecimentos em Bootstrap, responsive, UX...</h5>
 		</div>
 		<div class="row center">
-			<a href="" id="" class="btn-large waves-effect">Sobre</a>
+			<a id="btnSobre" class="btn-large waves-effect">Sobre</a>
 		</div>
 	</div>
 </div>
@@ -100,7 +100,7 @@
   			<div class="col s12 m8 l8">
   				<p>Desenvolvedor Front-end e Designer de interface com conhecimentos de UX, desenvolvimento web, layouts responsivos e Photoshop.</p>
 
-  				<p>Experiência com grandes projetos, arquitetura da informação, projetos multiplataforma, desenvolvimento de sites e hotsites, e-mail marketing portfólios e e-commerce.uismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+  				<p>Experiência com grandes projetos, arquitetura da informação, projetos multiplataforma, desenvolvimento de sites e hotsites, e-mail marketing portfólios e e-commerce.</p>
 
 				<div class="row">
 					<div class="col s12 m6">
